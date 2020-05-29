@@ -1,0 +1,68 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.clearfix::after{
+  content: "";
+  clear: both;
+  display: table;
+}
+
+img{
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+hr{
+  height:1px;
+  border-width:0;
+  background-color: #e5e5e5;
+}
+
+
+.arrow{
+  border: solid #cccccc;
+  border-width: 0 3px 3px 0;
+  border-radius: 1px;
+  display: inline-block;
+  padding: 5px;
+  cursor: pointer;
+}
+.up {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 6px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: #fff; 
+  border-radius: 6px;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(110, 240, 216, 0.7);
+  border-radius: 6px;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(110, 240, 216, 1);
+}

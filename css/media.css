@@ -1,0 +1,423 @@
+@media screen and (min-width: 600px){
+  /* COMMON CSS */
+  .story-desc p, 
+  .service-title p, 
+  .team-title p{
+    font-size: 0.9rem;
+    width: 80%;
+    margin: 30px auto 0;
+  }
+  .story-images, 
+  .team-images, 
+  .blog-images{
+    margin: 30px 0;
+  }
+  .story-images li, 
+  .team-images li, 
+  .blog-images li{
+    display: inline-block;
+    width: 32%;
+    margin-right: 2%;
+  }
+  .story-images li:last-child, 
+  .team-images li:last-child,
+  .blog-images li:last-child{
+    margin-right: 0;
+  }
+  /*  */
+
+  .navbar ul{
+    display: none;
+    /* display: block; */
+    text-align: center;
+  }
+  .navbar ul li{
+    display: inline-block ;
+  }
+  .navbar ul li a{
+    border-top: none;
+    padding: 0.5rem 0.75rem;
+  }
+  .navbar ul li img{
+    display: inline-block;
+  }
+
+
+  .title{
+    max-width: 400px;
+    margin-top: 1.88rem;
+  }
+  .title1{
+    font-size: 2em;
+  }
+  .title2{
+    font-size: 4em;
+  }
+  .title-line{
+    margin: 15px auto;
+  }
+  .header-button{
+    margin: 30px auto;
+  }
+
+
+
+  .slider-text{
+    font-size: 1rem;
+  }
+  .slider-text span{
+    margin-right: 5%;
+    font-size: 1.2rem;
+  }
+
+  
+
+  .stats-list li div{
+    font-size: 0.8rem;
+  }
+  .stats-list span{
+    font-size: 2.5rem;
+  } 
+
+
+  .work-inner .list{
+    width: 45%;
+    margin-right: 2.5%;
+    margin-left: 2.5%;
+    float: left;
+  }
+  
+
+
+  .phone{
+    width: 50%;
+  }
+
+
+  .slider-1-mid figure{
+    width: 15%;
+    margin: 0 ;
+    float: left;
+  }
+  .slider-mid-container{
+    margin-left: 6.2%;
+    float: left;
+    width: 78.8%;
+  }
+  .slider-mid-container p{
+    margin-top: 0px;
+  }
+
+
+
+  .brands{
+    width: 33.33333333%;
+  }
+
+
+
+  .gallery-half{
+    width: 50%;
+    float: left;
+  }
+  .gallery-half figure{
+    width: 50%;
+  }
+
+
+  .follow-text{
+    float: left;
+    padding: 7px 0;
+    font-size: 0.9rem;
+  }
+  .follow-icons{
+    float: left;
+    margin-left: 22px;
+  }
+  .follow-icons i{
+    font-size: 1rem;
+  }
+  .footer-right-left{
+    width: 50%;
+    float: left;
+  }
+  .footer-right-right{
+    width: 45%;
+    float: right;
+  }
+
+
+}
+
+@media screen and (min-width: 1202px){
+  /* COMMON CSS */
+  .container{
+    max-width: 1202px;
+    width: 1202px;
+    margin: 0 auto;
+  }
+  .title-1{
+    margin-top: 90px;
+    font-size: 1.5rem;
+  }
+  .title-2{
+    margin-top: 24px;
+    font-size: 2rem;
+  }
+  .title-bar{
+    margin-top: 40px;
+  }
+  .story-desc p, 
+  .service-title p, 
+  .team-title p{
+    margin-top: 46px;
+  }
+  .story-images, 
+  .team-images, 
+  .blog-images{
+    margin: 100px 0;
+  }
+  .story-images li, 
+  .team-images li, 
+  .blog-images li{
+    width: 32%;
+    margin-right: 2%;
+  }
+  .stats-list li div{
+    font-size: 0.9rem;
+  }
+  .stats-list span{
+    font-size: 5rem;
+  } 
+  .gradient{
+    opacity: 0;
+    background-image: linear-gradient(to bottom, rgba(243, 129, 129, 0.9), rgba(252, 227, 138, 0.9));
+    transition: 500ms ease-in-out;
+  }
+  .gradient:hover{
+    opacity: 1;
+  }
+  .gradient-content{
+    display: block;
+  }
+  /*  */
+
+
+
+  .container h1{
+    float: left;
+    padding: 1.5rem 0;
+  }
+  .navbar ul{
+    font-size: 0;
+    display: block;
+    float: right;
+  }
+  .navbar ul li{
+    font-size: 1rem;
+    padding: 1.44rem 1rem;
+  }
+  .navbar ul li:last-child{
+    padding-right: unset;
+  }
+
+  .title{
+    max-width: 802px;
+    margin-top: 50px;
+  }
+  .title h2{
+    padding: 22px 0;
+  }
+  .title1{
+    font-size: 4.2em;
+  }
+  .title2{
+    font-size: 8.9em;
+  }
+  .title-line{
+    margin: 50px auto;
+  }
+  .header-button{
+    margin: 50px auto;
+    padding: 12px 30px;
+    font-size: 1em;
+    width: 160px;
+  }
+
+
+
+  .slider-container ul li{
+    width: 22%;
+    margin: 0;
+    margin-right: 4%;
+  }
+  .slider-container{
+    max-width: 1202px;
+    margin: 0 auto;
+    margin-top: 157px;
+  }
+  .slider-text{
+    padding: 15px 0;
+    margin: 0;
+    font-size: 1.3rem;
+  }
+  .slider-text span{
+    font-size: 1.5rem;
+  }
+  
+
+
+
+
+  .work-inner{
+    margin-bottom: 71px;
+  }
+  .work-inner .list{
+    margin: 49px 2.5%;
+    width: 28.33333333%;
+  }
+  .work-inner-icon figure{
+    width: 32px;
+  }
+  .work-inner hr{
+    display: block;
+    float: left;
+  }
+
+
+
+  .phone{
+    width:40%;
+    margin-top: 45px;
+  }
+
+
+
+  .service-bottom{
+    margin-top: 90px;
+  }
+  .service-image{
+    width: 47.5%;
+    float: left;
+  }
+  .service-dropdowns{
+    margin-top: 0;
+    float: right;
+    width: 50%;
+  }
+
+
+
+  .slider-1 .iphone{
+    display: block;
+    width: 17.47%;
+    position: absolute;
+    right: 9.5%;
+    bottom: -50px;
+    z-index: 1;
+ }
+  .slider-1{
+    margin-top: 120px;
+  }
+  .slider-mid-container p{
+    margin-top: 10px;
+  }
+  .slider-mid-container 
+  .title-bar{
+    margin-top: 34px;
+  }
+  .author{
+    margin-top: 23px;
+    margin-left: 10px;
+  }
+
+
+
+  .team-name{
+    padding-top: 30px;
+  }
+  .team-name span{
+    margin-top: 10px;
+  }
+  .social-medias{
+    background-color: #fce38a;
+    bottom: 50%;
+    transform: translate(-50%, 50%);
+  }
+  .social-medias div{
+    border-right: 1px solid #f9bd87 ;
+    box-sizing: border-box;
+    color: #f38181;
+    padding: 7.5%;
+    cursor: pointer;
+  }
+
+
+
+  .brands{
+    width: 16.66666667%;
+  }
+
+
+
+  .gallery{
+    margin-top: 100px;
+  }
+  
+
+
+  .clients-bottom{
+    margin-top: 51px;
+    margin-bottom: 91px;
+  }
+  .client{
+    width: 43%;
+    margin: 34px 3.5%;
+    float: left;
+  }
+  .client-name{
+    margin-top: 12px;
+  }
+  .client-post{
+    margin-top: 16px;
+  }
+  .client-bar{
+    margin-top: 18px;
+  }
+  .client-desc blockquote{
+    margin-top: 25px;
+  }
+  .learn-more{
+    display: block;
+  }
+
+
+
+  .open-map{
+    padding: 56px 0;
+    font-size: 1.3rem;
+  }
+
+
+
+  .footer-top-left{
+    width: 40.1%;
+    float: left;
+  }
+  .footer-top-right{
+    float: right;
+    margin-top: 0;
+    width: 57.5%;
+  }
+  .footer-right-left{
+    margin-top: 0;
+    width: 49.86%;
+    float: left;
+  }
+  .footer-right-right{
+    margin-top: 0;
+    width: 39.45%;
+    float: right;
+  }
+
+}
