@@ -2,7 +2,7 @@
       COMMON CSS 
  =====================*/
 
- .container{
+.container{
   width: 90%;
   margin: 0 auto;
 }
@@ -109,7 +109,7 @@
 .navlist{
   background-color: #f38181;
 }
-.navbar ul{
+.menu-list{
   display: none;
   opacity: 50%;
 }
@@ -927,4 +927,10 @@ footer .container{
 }
 .footer-bottom span{
   color: #f38181;
+}
+
+
+/* JS classes */
+.active{
+  display: block;
 }
