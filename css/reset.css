@@ -31,10 +31,6 @@ hr{
   padding: 5px;
   cursor: pointer;
 }
-.up {
-  transform: rotate(45deg);
-  -webkit-transform: rotate(45deg);
-}
 .right {
   transform: rotate(-45deg);
   -webkit-transform: rotate(-45deg);
@@ -43,9 +39,15 @@ hr{
   transform: rotate(135deg);
   -webkit-transform: rotate(135deg);
 }
+.up {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+  transition: transform 300ms;
+}
 .down {
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
+  transition: transform 300ms;
 }
 
 /* width */
