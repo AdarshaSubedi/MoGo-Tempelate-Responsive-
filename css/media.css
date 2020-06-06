@@ -26,19 +26,22 @@
   }
   /*  */
 
-  .navbar ul{
+  .menu-list{
     display: none;
     /* display: block; */
     text-align: center;
   }
-  .navbar ul li{
+  .active{
+    display: block;
+  }
+  .navbar li{
     display: inline-block ;
   }
-  .navbar ul li a{
+  .navbar li a{
     border-top: none;
     padding: 0.5rem 0.75rem;
   }
-  .navbar ul li img{
+  .navbar li img{
     display: inline-block;
   }
 
